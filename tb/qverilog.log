@@ -1,0 +1,26 @@
+Start time: 15:54:50 on Feb 10,2025
+qverilog top.sv 
+-- Compiling module top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Error: top.sv(5): Cannot find `include file "transaction.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: ** while parsing file included at top.sv(6)
+** at env_config.sv(3): (qverilog-2163) Macro `uvm_object_utils is undefined.
+** Error: (qverilog-13069) ** while parsing file included at top.sv(6)
+** at env_config.sv(3): near "(": syntax error, unexpected '(', expecting function or task or   .
+** Error: (qverilog-13069) ** while parsing file included at top.sv(6)
+** at env_config.sv(14): near "endclass": syntax error, unexpected endclass.
+** Error: top.sv(7): Cannot find `include file "driver.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: top.sv(8): Cannot find `include file "monitor.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: top.sv(9): Cannot find `include file "sequencer.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: top.sv(10): Cannot find `include file "agent.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: top.sv(11): Cannot find `include file "env.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Error: top.sv(12): Cannot find `include file "base_test.sv" in directories:
+    /home/cad/eda/Questa-sim/questasim/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, /home/cad/eda/Questa-sim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src
+End time: 15:54:51 on Feb 10,2025, Elapsed time: 0:00:01
+Errors: 10, Warnings: 0
